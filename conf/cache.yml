@@ -1,0 +1,9 @@
+cache : 
+  cachedriver : memory # cache 引擎 支持redis 、 memory 、freecache
+  redis :   # redis 配置
+    key : world # redis 中的key前缀
+    conn : 127.0.0.1:6379 # redis 连接
+    dbnum : 0  # redis 数据库序号
+    password : 123456   # redis 连接密码
+  freecache : # freecache 配置
+    size : 256 # 预分配内存大小（需要一次性申请所有缓存空间，容量就是固定不变的） size为M

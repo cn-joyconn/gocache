@@ -1,0 +1,9 @@
+logs:
+  - {
+    name: default,
+    adapter : console,
+    formatter: '%w %t | %F:%n>> %m',
+    conf: {
+      level: 1,
+    }
+  }  
