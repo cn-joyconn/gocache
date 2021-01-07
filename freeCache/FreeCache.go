@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	icache "github.com/cn-joyconn/joyconn-gocache/icache"
+	icache "github.com/cn-joyconn/gocache/icache"
 	freecache "github.com/coocood/freecache"
 )
 

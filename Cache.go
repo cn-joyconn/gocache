@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"time"
 
-	_ "github.com/cn-joyconn/joyconn-gocache/freeCache"
-	icache "github.com/cn-joyconn/joyconn-gocache/icache"
-	_ "github.com/cn-joyconn/joyconn-gocache/memory"
-	_ "github.com/cn-joyconn/joyconn-gocache/redis"
-	log "github.com/cn-joyconn/joyconn-gologs"
-	filetool "github.com/cn-joyconn/joyconn-goutils/filetool"
-	strtool "github.com/cn-joyconn/joyconn-goutils/strtool"
+	_ "github.com/cn-joyconn/gocache/freeCache"
+	icache "github.com/cn-joyconn/gocache/icache"
+	_ "github.com/cn-joyconn/gocache/memory"
+	_ "github.com/cn-joyconn/gocache/redis"
+	log "github.com/cn-joyconn/gologs"
+	filetool "github.com/cn-joyconn/goutils/filetool"
+	// strtool "github.com/cn-joyconn/goutils/strtool"
 	yaml "gopkg.in/yaml.v2"
 )
 var globlaCache icache.ICache

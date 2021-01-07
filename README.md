@@ -2,7 +2,7 @@
 全局缓存库,支持 memory 、redis 、freecache。  
 调用方式 
 ```
-  import (jcache "github.com/cn-joyconn/joyconn-gocache")
+  import (jcache "github.com/cn-joyconn/gocache")
   
   func test(){
     cache := &Cache{Catalog:"joyconn",CacheName:"admin"}
