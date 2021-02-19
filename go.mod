@@ -1,6 +1,6 @@
 module github.com/cn-joyconn/gocache
 
-go 1.15
+go 1.16
 
 require (
 	github.com/cn-joyconn/gologs v0.0.0-20210107134507-517ef254033a
